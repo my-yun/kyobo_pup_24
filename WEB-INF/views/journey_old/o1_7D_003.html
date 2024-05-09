@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff">
+
+    <!-- SNS 공유하기 (카카오, 페이스북, 메세지) -->
+    <meta property="og:url" content="https://kyobobook.co.kr/"/>
+    <meta property="og:title" content="건강검진 전 필요한 것"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://contents.kyobobook.co.kr/resources/fo/images/common/ink/img_logo_kyobo@2x.png"/>
+    <meta property="og:description" content="교보문고 사이트에서 현재 진행하고 있는 자산관리, 자녀, 질병, 건강관리, 일상생활, 자기개발의 꿀팁을 한눈에 확인해보세요."/>
+    
+    <link href="../../../resources/v1/img/favicon.ico" rel="shrtcut icon">
+    <link href="../../../resources/v1/img/favicon.ico" rel="apple-touch-icon-precomposed">
+    <link rel="stylesheet" type="text/css" href="../../../resources/v1/css/import.css">
+
+    <script src="../../../resources/v1/js/jquery-3.4.1.min.js"></script>
+    <script src="../../../resources/v1/js/common.js"></script>
+    <script src="../../../resources/v1/js/link.js"></script>
+
+    <script src="../../../resources/v1/js/jquery-1.8.2.js"></script>
+    <script src="../../../resources/v1/js/ga-utils.js" defer></script>
+    <script src="../../../resources/v1/js/GAData.js" defer></script>
+    <script src="../../../resources/v1/js/GA.js"></script>
+
+    <title>건강검진 전 필요한 것</title>
+</head>
+<script>
+    document.documentElement.style.setProperty('--100vh-inner', `${document.documentElement.clientHeight}px`);
+</script>
+<body class="_7D_003 survey-type type-d bg-6">
+<!--GA 파라미터-->
+<input type="hidden" id="event_name" value="DBS_캠페인_MO" />
+<input type="hidden" id="ep_button_area" value="건강관리_운동외_건강검진_상세" />
+<!-- [S] skip-nav -->
+<div class="skip-nav">
+    <a href="#cont-wrap">본문 바로가기</a>
+</div>  
+<!-- [E] skip-nav -->
+
+<!-- [S] header-->
+<header id="header">
+    <nav class="bg-white">
+        <div class="link_back">
+            <a class="go-back-btn" onclick="setGAClickHandler(event)" id="goBackBtn">
+                <span class="blind">뒤로가기</span>
+                <img src="../../../resources/v1/img/ico-kyobobook-gnb-back.svg" alt="뒤로가기">
+            </a>
+        </div>
+        <div>
+            <a id="link_home" onclick="setGAClickHandler(event)">
+                <span class="blind">홈으로</span>
+                <img src="../../../resources/v1/img/icon/ico-home.png" alt="홈으로 버튼">
+            </a>
+        </div> 
+        <h1>
+            건강검진 전 필요한 것
+        </h1>
+        <div>
+            <a id="link_share" onclick="setGAClickHandler(event)">
+                <span class="blind">공유하기</span>
+                <img src="../../../resources/v1/img/icon/ico-share.png" alt="공유하기 버튼">
+            </a>
+        </div> 
+    </nav>
+</header>
+<!-- [E] header-->
+
+<!--서버로부터 전달받는 변수영역-->
+<input type="hidden" id="srch_kywr_name" class="srch_kywr_name" th:value="${srch_kywr_name}" />
+<input type="hidden" id="csjr_ctts_num" class="csjr_ctts_num" th:value="${csjr_ctts_num}" />
+
+<!-- [S] cont -->
+<div id="cont-wrap">
+    <div class="main-wrapper">
+        <div class="top-area">
+            <div id="survey-area">
+                <article class="fc-white">
+                    <span class="tag opacity-0"
+                        data-animation-type="onload"
+                        data-animation-infos="remove-class-nm: 'opacity-0',
+                                                start-ms:'300',
+                                                transition-props:'[opacity]',
+                                                transition-duration:'0.7s'">건강관리</span>
+                    <div class="mt-10">
+                        <div class="fs-22 opacity-0"
+                            data-animation-type="onload"
+                            data-animation-infos="remove-class-nm: 'opacity-0',
+                                                style-bf-ani: 'transform:translateY(-100%);',
+                                                style-af-ani: 'transform:',
+                                                start-ms:'500',
+                                                transition-props:'[opacity,transform]',
+                                                transition-duration:'0.8s'">잠깐!! 건강검진 받기 전에
+                        </div>
+                        <div class="fs-22 strong-underline opacity-0"
+                            data-animation-type="onload"
+                            data-animation-infos="remove-class-nm: 'opacity-0',
+                                                style-bf-ani: 'transform:translateY(-250%);',
+                                                style-af-ani: 'transform:',
+                                                start-ms:'700',
+                                                transition-props:'[opacity,transform]',
+                                                transition-duration:'0.8s'">꼭 챙겨야 할 사항은?
+                        </div>
+                    </div>
+                    <div class="opacity-0 mt-10"
+                            data-animation-type="onload"
+                            data-animation-infos="remove-class-nm: 'opacity-0',
+                                                style-bf-ani: 'transform:translateY(-400%);',
+                                                style-af-ani: 'transform:',
+                                                start-ms:'900',
+                                                transition-props:'[opacity,transform]',
+                                                transition-duration:'0.8s'">
+                        <span class="sub-tit">
+                            짝수년 출생자는 짝수년도,<br>
+                            홀수년 출생자는 홀수년도에 건강검진 받으세요!
+                        </span>
+                    </div>
+                </article>
+
+                <form class="survey-form">
+                    <ul class="vertical-ul">
+                        <li class="fs-0"
+                            data-animation-type="onresult"
+                            data-animation-infos="style-af-ani:'transform:translateX(-50%);',
+                                                    start-ms:'0'">
+                            <div class="li-item opacity-0"
+                                    data-animation-type="onload"
+                                    data-animation-infos="remove-class-nm: 'opacity-0',
+                                                style-bf-ani: 'transform:translateX(100vw);',
+                                                style-af-ani: 'transform:',
+                                                start-ms:'1000',
+                                                transition-props:'[opacity]',
+                                                transition-duration:'0.5s'">
+                                <input type="radio" name="kyobolife-survey" value="01" id="answer-01"
+                                       onclick="ga360.GA_Event('DBS_캠페인_MO', '건강관리_운동외_건강검진_상세_메인', '설문확인', '설문확인_적절한검진 항목선택하기');"
+                                       data-sv="2년 전 검진 결과 확인하고, 적절한 검진 항목 선택하기">
+                                <label for="answer-01">
+                                    <div class="radio-btn bdc-5"></div>
+                                    <div class="fs-5 contents">
+                                        <small class="fc-4">2년 전 검진 결과 확인하고,</small>
+                                        <div class="mt-5">적절한 검진 항목 선택하기</div>
+                                    </div>
+                                    <img src="../../../resources/v1/img/7D_003_01.png" alt="겸진 관련 대표 이미지" width="50px">
+                                </label>
+                            </div>
+                            <div class="li-item-result-wrapper">
+                                <div class="li-item-result">
+                                    <div>
+                                        <small class="fc-4">2년 전 검진 결과 확인하고,</small>
+                                        <div>적절한 검진 항목 선택하기</div>
+                                        <div class="progress-bar mt-10">
+                                            <div class="painted-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-align-right">
+                                        <div class="display-inline-block result-ratio">-</div>
+                                        <span>%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fs-0"
+                            data-animation-type="onresult"
+                            data-animation-infos="style-af-ani:'transform:translateX(-50%);',
+                                                    start-ms:'300'">
+                            <div class="li-item opacity-0"
+                                    data-animation-type="onload"
+                                    data-animation-infos="remove-class-nm: 'opacity-0',
+                                                style-bf-ani: 'transform:translateX(100vw);',
+                                                style-af-ani: 'transform:',
+                                                start-ms:'1300',
+                                                transition-props:'[opacity]',
+                                                transition-duration:'0.5s'">
+                                <input type="radio" name="kyobolife-survey" value="2" id="answer-02"
+                                       onclick="ga360.GA_Event('DBS_캠페인_MO', '건강관리_운동외_건강검진_상세_메인', '설문확인', '설문확인_어떤보험금을받을수있는지확인하기');"
+                                       data-sv="검진 결과에 따라 받을 수 있는 보험금 확인하기">
+                                <label for="answer-02">
+                                    <div class="radio-btn bdc-5"></div>             
+                                    <div class="fs-5 contents">
+                                        <small class="fc-4">검진 결과에 따라</small>
+                                        <div class="mt-5 contents">받을 수 있는 보험금 확인하기</div>
+                                    </div>
+                                    <img src="../../../resources/v1/img/7D_003_02.png" alt="보험금 대표 이미지" width="50px">
+                                </label>
+                            </div>  
+                            <div class="li-item-result-wrapper"> 
+                                <div class="li-item-result">
+                                    <div>
+                                        <small class="fc-4">검진 결과에 따라</small>
+                                        <div>받을 수 있는 보험금 확인하기</div>
+                                        <div class="progress-bar mt-10">
+                                            <div class="painted-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-align-right">
+                                        <div class="display-inline-block result-ratio">-</div>
+                                        <span>%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+
+                <div class="cont-area">
+                    <button type="submit" id="goNextBtn" class="com-btn fs-4 fw-700" data-is-not-result-page="true" onclick="setGAClickHandler(event)" disabled>설문 확인하기</button>
+
+                    <div class="text-align-center" data-is-not-result-page="false">
+                        <div class="fs-20 fw-700 fc-12"
+                            data-animation-type="onresult"
+                            data-animation-infos="style-bf-ani: 'transform:translateX(-100px); opacity:0',
+                                                    style-af-ani: 'transform:translateX(0px); opacity:1',
+                                                    start-ms: '600'">
+                            둘 다 정답입니다.
+                        </div>
+                        <div class="fc-3 text-align-center mt-5"
+                            data-animation-type="onresult"
+                            data-animation-infos="style-bf-ani: 'transform:translateX(-100px); opacity:0',
+                                                    style-af-ani: 'transform:translateX(0px); opacity:1',
+                                                    start-ms: '900'">
+                            오늘은 보험금을 받을 수 있는<br>
+                            점검 사항을 알려드릴게요.
+                        </div>
+                        <div class="mt-20">
+                            <img src="../../../resources/v1/img/7D_003_03.png" alt="오늘은 보험금을 받을 수 있는 점검 사항을 알려드릴게요. 대표 이미지" width="300px"
+                                    data-animation-type="onresult"
+                                    data-animation-infos="style-bf-ani: 'transform:translateX(-100px); opacity:0',
+                                                        style-af-ani: 'transform:translateX(0px); opacity:1',
+                                                        start-ms: '1200'">
+                        </div>
+                    </div>
+                </div>
+
+                <section data-is-not-result-page="false"
+                    data-animation-type="onscroll"
+                    data-animation-infos="style-bf-ani: 'opacity:0',
+                                        style-af-ani: 'opacity:1', scroll-duration: 300'">
+                    <article class="inner text-align-left">
+                        <div class="inner-cont overflow-hidden">
+                            <!-- 1 -->
+                            <div class="title-msg">
+                                <span class="section-no fw-700 fc-5"
+                                        data-animation-type="onscroll"
+                                        data-animation-infos="style-bf-ani: 'opacity:0',
+                                                            style-af-ani: 'opacity:0.2'">1</span>
+                                <div class="fw-700 fs-22"
+                                    data-animation-type="onscroll"
+                                    data-animation-infos="style-bf-ani: 'opacity:0',
+                                                        style-af-ani: 'opacity:1'">
+                                                        대장에서 용종이<br>
+                                                        발견되어 떼어 냈어요.
+                                </div>
+                            </div>
+                            <div class="mt-5 fc-3"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0',
+                                                    style-af-ani: 'opacity:1'">
+                                                    조직 검사 비용과 용종 제거 비용을 실손보험에서 받을 수 있습니다.
+                            </div>
+                            <div class="mt-5 fc-3"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0',
+                                                    style-af-ani: 'opacity:1'">
+                                                    수술비 특약에 가입되어 있으면 수술보험금을 받을 수 있습니다.
+                            </div>
+                            <div class="mt-5 fc-3"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0',
+                                                    style-af-ani: 'opacity:1'">
+                                                    보험금 청구시효는 3년이며, 4년 전에 떼어 냈다면 아쉽지만 청구하지 못합니다.
+                            </div>
+                            <div class="img-box text-align-center mt-20"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0',
+                                                    style-af-ani: 'opacity:1'">
+                                <img src="../../../resources/v1/img/7D_003_img-04.png" alt="대장 용종 떼어 냈어요 대표 이미지" width="200">
+                            </div>
+                            <!-- // 1 -->
+
+                            <!-- 2 -->
+                            <div class="title-msg mt-60">
+                                <span class="section-no fw-700 fc-5"
+                                        data-animation-type="onscroll"
+                                        data-animation-infos="style-bf-ani: 'opacity:0',
+                                                            style-af-ani: 'opacity:0.2'">2</span>
+                                <div class="fw-700 fs-22"
+                                    data-animation-type="onscroll"
+                                    data-animation-infos="style-bf-ani: 'opacity:0',
+                                                        style-af-ani: 'opacity:1'">
+                                    혈액검사 결과<br>
+                                    당뇨로 진단받았어요.
+                                </div>
+                            </div>
+
+                            <div class="mt-5 fc-3"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0;', 
+                                                    style-af-ani: 'opacity:1';">
+                                당뇨 진단보험금 지급기준은 공복혈당이 아니라 당화혈색소입니다.
+                            </div>
+
+                            <div class="mt-5 fc-3"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0;', 
+                                                    style-af-ani: 'opacity:1';">
+                                당화혈색소 수치가 6.5% 이상이면 당뇨 진단 보험금을 받을 수 있습니다.
+                            </div>
+
+                            <div class="img-box text-align-center mt-20"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0',
+                                                    style-af-ani: 'opacity:1'">
+                                <img src="../../../resources/v1/img/7D_003_img-05.png" alt="혈액검사 결과 당뇨로 진단받았어요 대표 이미지" width="200">
+                            </div>
+                            <!-- // 2 -->
+
+                            <!-- 3 -->
+                            <div class="title-msg mt-60">
+                                <span class="section-no fw-700 fc-5"
+                                        data-animation-type="onscroll"
+                                        data-animation-infos="style-bf-ani: 'opacity:0',
+                                                            style-af-ani: 'opacity:0.2'">3</span>
+                                <div class="fw-700 fs-22"
+                                    data-animation-type="onscroll"
+                                    data-animation-infos="style-bf-ani: 'opacity:0',
+                                                        style-af-ani: 'opacity:1'">
+                                    MRA 검사에서<br>
+                                    뇌동맥류가 발견되었어요.
+                                </div>
+                            </div>
+
+                            <div class="mt-5 fc-3"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0;', 
+                                                    style-af-ani: 'opacity:1';">
+                                크기가 작은 경우 수술을 하지 않는 때도 있습니다.
+                            </div>
+
+                            <div class="mt-5 fc-3"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0;', 
+                                                    style-af-ani: 'opacity:1';">
+                                수술하지 않아도 발견한 것만으로도 보험금이 지급됩니다.
+                            </div>
+
+                            <div class="img-box text-align-center mt-20"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0',
+                                                    style-af-ani: 'opacity:1'">
+                                <img src="../../../resources/v1/img/7D_003_06.png" alt="MRA 검사에서 뇌동맥류가 발견되었어요. 대표 이미지" width="200">
+                            </div>
+                            <!-- // 3 -->
+
+                            <!-- 4 -->
+                            <div class="title-msg mt-60">
+                                <span class="section-no fw-700 fc-5"
+                                        data-animation-type="onscroll"
+                                        data-animation-infos="style-bf-ani: 'opacity:0',
+                                                            style-af-ani: 'opacity:0.2'">4</span>
+                                <div class="fw-700 fs-22"
+                                    data-animation-type="onscroll"
+                                    data-animation-infos="style-bf-ani: 'opacity:0',
+                                                        style-af-ani: 'opacity:1'">
+                                    초음파검사를 하다가<br>
+                                    갑상선암을 발견했어요.
+                                </div>
+                            </div>
+
+                            <div class="mt-5 fc-3"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0;', 
+                                                    style-af-ani: 'opacity:1';">
+                                조직검사가 필요하여 시행하였을 때 실손보험에서 받을 수 있습니다.
+                            </div>
+
+                            <div class="mt-5 fc-3"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0;', 
+                                                    style-af-ani: 'opacity:1';">
+                                초기 암의 경우 보험상품에 가입한 시기 및 약관 내용에 따라 유사 암보험금, 소액 암보험금, 일반암보험금을 받을 수도 있습니다.
+                            </div>
+
+                            <div class="img-box text-align-center mt-20"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'opacity:0',
+                                                    style-af-ani: 'opacity:1'">
+                                <img src="../../../resources/v1/img/7D_003_07.png" alt="초음파검사를 하다가 갑상선암을 발견했어요. 대표 이미지" width="200">
+                            </div>
+                            <!-- // 4 -->
+                        </div>
+                    </article>
+
+                    <article class="text-align-center pb-0">
+                        <div class="mt-5">
+                            <img src="../../../resources/v1/img/check-blue.png" width="50"
+                                    data-animation-type="onscroll"
+                                    data-animation-infos="style-bf-ani: 'transform: scale(3.3); opacity:0',
+                                                style-af-ani: 'transform: scale(1); opacity:1'">
+                            <p class="mt-5 mb-0 fs-16 fc-1"
+                                data-animation-type="onscroll"
+                                data-animation-infos="style-bf-ani: 'margin-left: getOffsetRightFromParent(px); opacity:0',
+                                                    style-af-ani: 'margin-left: 0px; opacity:1'">
+                                잊지 마세요. 혹시 내 건강이 걱정된다면...<br>
+                                <span class="fc-12 fs-22 fw-700">
+                                    건강검진 받기 전 보험증권 확인!
+                                </span>
+                            </p>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- s: 컨텐츠 하단 영역-->
+                <div class="bg-btm-blue btm-wrap" data-is-not-result-page="false">
+                    <!-- 평가영역 -->
+                    <section id="feedback-area" class="bg-f4f4f4">
+                        <div class="feedback-inner">
+                            <div class="feedback-txt">콘텐츠가 유익했어요!</div>
+                            <div class="feedback-btn-box">
+                                <div class="feedback-btn-box-inner">
+                                    <input type="radio" name="feedback-radio" id="feedback-radio-01" value="001" onclick="setGAClickHandler(event)">
+                                    <label class="feedback-btn good" for="feedback-radio-01">
+                                        <!-- <img src="../../../resources/v1/img/icon/ico-feedback-good_gray.png" width="50"> -->
+                                        <span class="blind">좋아요</span>
+                                    </label>
+                                </div>
+                                <div class="feedback-btn-box-inner">
+                                    <input type="radio" name="feedback-radio" id="feedback-radio-02" value="002" onclick="setGAClickHandler(event)">
+                                    <label class="feedback-btn bad" for="feedback-radio-02">
+                                        <!-- <img src="../../../resources/v1/img/icon/ico-feedback-bad_gray.png" width="50"> -->
+                                        <span class="blind">별로에요</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- 상품영역 -->
+                    <div id="ins_view" class="ins_view"></div>
+
+                    <!-- 동의 영역 -->
+                    <div class="agree-area white">
+                        <div class="all-agree-box" id="allAgreeBox">
+                            <label for="chkAll" class="check-style-all">
+                                <input type="checkbox" name="" id="chkAll" onclick="chkall();"><i></i><span>전체동의</span>
+                            </label>
+                        </div>
+                        <div class="agree-box" id="personalAgreeBox">
+                            <label for="chkAgr1" class="check-style-agr chk_agr_info">
+                                <input type="checkbox" name="typ-all" id="chkAgr1"><i></i><span>개인정보 제3자 제공 동의(선택)</span>
+                            </label>
+                            <a href="javascript:void(0);" onclick="popOpen('personalPop');">보기</a>
+                        </div>
+                        <div class="agree-box" id="marketAgreeBox">
+                            <label for="chkAgr2" class="check-style-agr chk_agr_mkt">
+                                <input type="checkbox" name="typ-all" id="chkAgr2"><i></i><span>마케팅 수신 동의(선택)</span>
+                            </label>
+                            <a href="javascript:void(0);" onclick="popOpen('marketPop');">보기</a>
+                        </div>
+                    </div>
+                    <div class="confirm-btn-box">
+                        <a class="confirm-btn link_login" id="confirm" onclick="setGAClickHandler(event)">
+                            확인하기
+                        </a>
+                    </div>
+
+                    <!-- 유의문구 영역 -->
+                    <div class="info-txt-wrap">
+                        <ul class="info-txt">
+                            <li>가입전에 상품설명서와 약관을 읽어보시기 바랍니다.</li>
+                            <li>교보생명은 상품에 대해 충분히 설명할 의무가 있으며, 가입자는 앞서 이에 대한 충분한 설명을 받으시기 바랍니다.</li>
+                            <li>보험계약자가 기존 보험계약을 해지하고, 새로운 보험계약을 가입할 경우 인수 거절, 보험료 인상, 보장내용 축소 등 불이익이 생길 수 있습니다.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- e: 컨텐츠 하단 영역-->
+            </div>
+        </div>
+
+        <!-- [S] footer -->
+        <footer class="footer_wrapper" data-is-not-result-page="false">
+            <div class="footer_body">
+                <div class="logo_box">
+                    <a id="link_home" class="logo_link">
+                            <img src="../../../resources/v1/img/icon/logo-foorer.png" alt="KYOBO 교보문고" />
+                    </a>
+                    <button type="button" class="btn_more_body"><span class="text">사업자정보</span><span class="ico_arw"></span></button>
+                </div>
+                
+                <address class="footer_info_box">
+                    <div class="info_text_multi">
+                        <span class="info_text">교보문고</span>
+                        <span class="gap">|</span>
+                        <span class="info_text">대표이사 : 안병현, 김상훈</span>
+                    </div>
+                    <span class="info_text">서울특별시 종로구 종로 1</span>
+                    <span class="info_text">사업자등록번호 : 102-81-11670</span>
+                    <span class="info_text"><b>대표전화 : 1544-9000</b></span>
+                    <span class="info_text">FAX : 0502-987-5711(지역번호 공통)</span>
+                    <span class="info_text"><span class="text_inner">서울특별시 통신판매업신고번호 : 제 653호</span></span>
+                    <a id="link_companyChk" class="btn_footer_link">사업자정보확인</a>
+                    <a id="link_paychk" class="btn_footer_link">구매안전서비스</a>
+                </address>
+                
+                <div class="footer_menu_box">
+                    <ul class="footer_menu_list">
+                        <li class="footer_menu_item" id="li_login"><a id="link_login" class="footer_menu_link">로그인</a></li>
+                <li class="footer_menu_item" id="li_logout"><a id="link_logout" class="footer_menu_link">로그아웃</a></li>
+                        <li class="footer_menu_item"><a id="link_join" class="footer_menu_link">회원가입</a></li>
+                    </ul>
+                    <ul class="footer_menu_list sub">
+                        <li class="footer_menu_item"><a id="link_provision" class="footer_menu_link">이용약관</a></li>
+                        <li class="footer_menu_item privacy"><a id="link_privacy" class="footer_menu_link">개인정보처리방침</a></li>
+                        <li class="footer_menu_item"><a id="link_youth" class="footer_menu_link">청소년보호정책</a></li>
+                        <li class="footer_menu_item"><a id="link_chargeperson" class="footer_menu_link">협력사여러분</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- [E] footer -->
+    </div>
+
+    <div class="top-bg-panel-wrapper">
+        <div class="top-bg-panel bg-5"></div>
+    </div>
+</div>
+<!-- [E] cont -->
+
+<!-- dim -->
+<div class="dim"></div>
+
+<!-- [S] 공유하기 팝업 -->
+<div id="popShare" class="dialog_wrap">
+	<button type="button" class="btn_dialog_close" data-dialog-close>
+        <span class="ico_dialog_close"></span><span class="blind">닫기</span>
+    </button>
+	<!-- dialog_header -->
+	<div class="dialog_header">
+		<h2 class="dialog_title">공유하기</h2>
+	</div>
+	<!-- //dialog_header -->
+	<!-- dialog_contents -->
+	<div class="dialog_contents">
+		<ul class="sns_share_list">
+			<li class="list_item">
+				<a href="javascript:void(0)" class="btn_sns_share" id="ka-share-btn">
+					<span class="ico_sns kakao"></span>
+					<span class="sns_text">카카오톡</span>
+				</a>
+			</li>
+            <li class="list_item">
+				<a href="javascript:void(0)" class="btn_sns_share" id="fb-share-btn">
+					<span class="ico_sns facebook"></span>
+					<span class="sns_text">페이스북</span>
+				</a>
+			</li>
+			<li class="list_item">
+				<a href="javascript:void(0)" class="btn_sns_share" id="msg-share-btn">
+					<span class="ico_sns message"></span>
+					<span class="sns_text">메세지</span>
+				</a>
+			</li>
+			<li class="list_item">
+				<a href="javascript:void(0)" class="btn_sns_share" id="more-share-btn">
+					<span class="ico_sns more"></span>
+					<span class="sns_text">더보기</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- //dialog_contents -->
+	<!-- dialog_footer -->
+	<div class="dialog_footer">
+		<div class="sns_share_link_box">
+			<span class="sns_share_link" id="url-copy-span"></span>
+			<button type="button" class="btn_share_link" id="url-copy-btn">URL 복사</button>
+		</div>
+	</div>
+	<!-- //dialog_footer -->
+</div>
+<!-- URL공유 토스트 팝업 -->
+<div class="toast_wrap_share">
+    <span class="toast_message">URL이 복사되었습니다.</span>
+</div>
+<!-- [E] 공유하기 팝업 -->
+
+<!-- [S] 로그인 확인 팝업 -->
+<div id="poplogin">
+    <div class="poplogin-inner">
+        <div class="dialog-contents">
+            로그인하고<br>맞춤 상품 확인해보세요!
+        </div>
+        <div class="dialog-btn">
+            <button class="btn-next" id="btnNext">다음에 하기</button>
+            <button class="btn-login" id="btnLogin">로그인 하기</button>
+        </div>
+    </div>
+</div>
+<!-- [S] pop -->
+<!-- s: 개인정보 제3자 제공동의 팝업 -->
+<div id="cnst_personal_view"></div>
+<!-- e: 개인정보 제3자 제공동의 팝업 -->
+
+<!-- s: 마케팅 수신 동의 팝업 -->
+<div id="cnst_market_view"></div>
+<!-- e: 마케팅 수신 동의 팝업 -->
+
+<!-- 제3자 제공 동의 유도 토스트 메세지 -->
+<div class="toast_wrap_re">
+    <span class="toast_message">제3자 제공 동의 시에만<br>상품 안내를 받아 볼 수 있습니다.</span>
+</div>
+<!-- [E] pop -->
+
+<!-- [S]top버튼 -->
+<div class="btn-top-wrap">
+    <button type="top" class="btn-fixed-top">top</button>
+</div>
+<!-- [E]top버튼 -->
+
+<!--로딩스크린-->
+<div class="text-align-center loading-screen" data-is-playing-loading="false">
+    <lottie-player src="../../../resources/v1/img/loading-animation.json"
+                    background="transparent"
+                    style="width: 100px; height: 100px; display:inline-block" speed="1" loop autoplay>
+    </lottie-player>
+    <div class="fc-2 fs-6 fw-500">
+        고객님에게 맞는 <b>교보생명</b> 상품으로<br>
+        이동중이에요!
+    </div>
+</div>
+
+<!-- <script src="../../../resources/v1/js/swiper-bundle.min.js"></script> -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js"
+        integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx" crossorigin="anonymous"></script>
+<script type="module">
+import { AnimationManager } from "../../../resources/v1/js/open_AnimationManager.js";
+import { EventProcessor } from "../../../resources/v1/js/open_EventProcessor.js";
+
+try {
+    // animation setting
+    AnimationManager.loadElementsToAnimate();
+}
+catch(error){
+    alert(error);
+    alert(error.stack);
+}
+</script>
+</body>
+</html>
